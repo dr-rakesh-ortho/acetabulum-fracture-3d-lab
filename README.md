@@ -37,6 +37,8 @@ The transverse example leaves the pubic ramus and ischial spine intact in the in
 
 ## Limits
 
+Clamp placement is approximate and may not reproduce the correct surgical position or contact points.
+
 This is an unvalidated teaching prototype, not a medical device or a patient-specific planning system. Fracture cuts, instrument dimensions and exposure boundaries are constructed approximations. No independent anatomical or educational validation has been completed. It does not simulate surgical force, torque, collision, tissue resistance, cartilage, vessels or nerves. Guided alignment returns fragments to their stored reference poses and may demonstrate movements that are not surgically feasible.
 
 The exposure is a projected visibility mask. The reference images depict the hip bone; they do not validate a sacral S1 exposure. The optional pelvic-ring context is an approximate placement of separately supplied bones. The left fracture model mirrors the right bone rather than using independent left fracture segmentation.
