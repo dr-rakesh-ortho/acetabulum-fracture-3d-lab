@@ -1,0 +1,350 @@
+[
+  {
+    "pattern": "Intact anatomy",
+    "parts": [
+      {
+        "name": "Intact SI-connected hip bone",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Posterior wall",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior wall",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Posterior column",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Anterior wall",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior wall",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Anterior column",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Transverse",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Ischiopubic segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Posterior column + posterior wall",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior wall",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Transverse + posterior wall",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Ischiopubic segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior wall",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "T-type",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior inferior segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior inferior segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Anterior column + posterior hemitransverse",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior hemitransverse segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Both columns",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column with roof",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Quadrilateral plate component study",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Quadrilateral plate",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Anterior column + separate quadrilateral plate",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Quadrilateral plate",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Anterior column + posterior hemitransverse + separate quadrilateral plate",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior hemitransverse segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Quadrilateral plate",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  },
+  {
+    "pattern": "Both columns + separate quadrilateral plate",
+    "parts": [
+      {
+        "name": "Fixed SI-connected segment",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Anterior column with roof",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Posterior column",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      },
+      {
+        "name": "Quadrilateral plate",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_positive": true,
+        "components": 1
+      }
+    ]
+  }
+]
