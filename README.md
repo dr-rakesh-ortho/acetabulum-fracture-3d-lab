@@ -12,7 +12,7 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Then open http://127.0.0.1:8000 in a modern browser with WebGL and DecompressionStream support. The anatomy loads locally from this repository; there is no analytics service or patient-data upload feature.
 
-This repository is intended to remain private. Do not enable public static hosting to satisfy a no-model-download requirement: a browser-rendered static viewer necessarily receives the geometry. A future controlled-access viewer must authenticate viewers and render on the server, streaming images rather than distributing mesh assets. That service is not implemented in this repository.
+This repository and the original browser-rendered teaching lab are public. The source and model files can be downloaded; this GitHub Pages version does not provide server-side model protection.
 
 ## Features
 
