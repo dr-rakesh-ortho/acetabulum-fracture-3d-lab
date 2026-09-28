@@ -1,0 +1,31 @@
+{
+  "entry": "https://3d.nih.gov/entries/3DPX-015682",
+  "version": 2,
+  "authors": "Weissbrod, E (HJF), Jones, E (USU), Mateo, RB (USU)",
+  "license": "CC-BY-NC-SA-4.0",
+  "units": "mm",
+  "scale": 1,
+  "rescaled": false,
+  "decimated": false,
+  "context_assembly": "Approximate rigid placement; not validated",
+  "sources": [
+    {
+      "file": "nih-right-original.stl",
+      "nih_filename": "Os_R_Male_Final_NIH3D.stl",
+      "sha256": "213774ddb4875caf917dca802b8095c3ac579ee9f0c0e90be1f5d3f626064d28",
+      "download_url": "https://3d.nih.gov/api/submissions/20822/runs/d99f688e-2683-4505-ae02-d7eec7b0fe8e/output-files/454530"
+    },
+    {
+      "file": "nih-left-original.stl",
+      "nih_filename": "Os_L_Male_Final_NIH3D.stl",
+      "sha256": "fd6a2a48d73d2658b0b6b9c8f9a46077ce67292bd7072e1379e480b8ec62dbf2",
+      "download_url": "https://3d.nih.gov/api/submissions/20822/runs/12512e75-0bf0-41e9-ae3b-d8eae4fa9576/output-files/454526"
+    },
+    {
+      "file": "nih-sacrum-original.stl",
+      "nih_filename": "Sacrum_Male_Final_NIH3D.stl",
+      "sha256": "97aaaaade7346becf04f4c5728429f4203c7cff669797c4789cf74e3d6bc49be",
+      "download_url": "https://3d.nih.gov/api/submissions/20822/runs/da177f09-7abb-4a8a-880d-dac7cc720a24/output-files/454270"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+Anatomical source: NIH 3D entry 3DPX-015682, version 2.
+https://3d.nih.gov/entries/3DPX-015682
+
+Weissbrod, E (HJF), Jones, E (USU), Mateo, RB (USU);
+“3D Models of the Male Pelvis with L4, L5 Vertebrae and Proximal Femur”,
+Department of Surgery, USUHS, Bethesda, MD 20814.
+
+Uniformed Services University (USU): https://www.usuhs.edu/
+The Henry M. Jackson Foundation for the Advancement of Military Medicine (HJF): https://www.hjf.org/
+
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Files used: Os_R_Male_Final_NIH3D.stl; Os_L_Male_Final_NIH3D.stl;
+Sacrum_Male_Final_NIH3D.stl. Digital source units: mm, scale: 100%.
+Accessed 2026-09-24.
+
+Modifications for this viewer: duplicate/degenerate face cleanup, repair of
+triangle holes, removal of zero-volume/stray components, rigid reorientation
+and display placement, newly constructed representative fracture cuts.
+No scaling, mesh decimation, or anatomical sculpting was applied.
+The separately supplied left hip and sacrum are positioned approximately for
+pelvic-ring context; their joint assembly has not been validated.
+Derived anatomical geometry remains CC BY-NC-SA 4.0.
+This derivative is not endorsed or anatomically validated by the NIH,
+USU, HJF, or the original authors.
+
+Clamp reference: photograph supplied by the user. It is a visual reference,
+not manufacturer's CAD or a dimensional drawing. NIH licensing does not
+apply to the clamp photograph. Instrument dimensions and out-of-plane shape
+are assumptions, with adjustable nominal length.
