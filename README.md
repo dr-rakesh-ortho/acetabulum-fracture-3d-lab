@@ -22,7 +22,7 @@ This repository and the original browser-rendered teaching lab are public. The s
 - Approximate restricted modified Stoppa exposure, with a full medial-view toggle.
 - A fixed SI-connected reference fragment; mobile fragments translate and rotate independently.
 - Photo-based pointed clamp, schematic Jungbluth and Farabeuf clamps, bone hook, and optional Schanz screw joystick.
-- Fragment-specific contact surfaces using the author's teaching rule: posterior wall, posterior column, transverse and hemitransverse components use outside contacts; other components use inside contacts.
+- Suggested contact surfaces (user-overridable): posterior wall, posterior column, transverse and hemitransverse components use outside contacts; other components use inside contacts.
 - Saved poses, paired-view images, directed translation and guided geometric alignment.
 
 ## Suggested workflow
@@ -66,3 +66,9 @@ node source/check-reduction.mjs
 ```
 
 The generated anatomy payload is divided into JavaScript modules below 8 MB each. `assets/anatomy.json` is regenerated from the included original STL files and is not committed. Mesh checks verify closed, consistently oriented, positive-volume single-component solids; the generator checks volume conservation. Reduction checks verify the fixed reference and target-only translation. These software checks do not establish anatomical or clinical validity.
+
+## Contact arrangements and patient orientation
+
+The photo-matched screw-lock clamp supports outside/outside, inside/inside, and mixed contacts in either fixed/mobile order. Farabeuf and Jungbluth allow either outside/outside or inside/inside; mixed contacts are disabled. Changing the instrument or contact arrangement clears previous contacts. The fixed SI-connected reference remains locked.
+
+Open **Patient on OT table** for a synchronized pelvis within a transparent schematic body. Choose whole-patient, axial, or pelvis close-up views; rotate around the head-to-foot axis with the slider or choose supine, prone, right-side-down, or left-side-down presets. Axial mode hides the schematic head and limbs. These are orientation aids, not validated surgical exposure, whole-skeleton anatomy, collision, or patient-positioning simulations.
