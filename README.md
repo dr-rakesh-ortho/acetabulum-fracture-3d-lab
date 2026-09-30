@@ -71,4 +71,8 @@ The generated anatomy payload is divided into JavaScript modules below 8 MB each
 
 The photo-matched screw-lock clamp supports outside/outside, inside/inside, and mixed contacts in either fixed/mobile order. Farabeuf and Jungbluth allow either outside/outside or inside/inside; mixed contacts are disabled. Changing the instrument or contact arrangement clears previous contacts. The fixed SI-connected reference remains locked.
 
-Open **Patient on OT table** for a synchronized pelvis within a transparent schematic body. Choose whole-patient, axial, or pelvis close-up views; rotate around the head-to-foot axis with the slider or choose supine, prone, right-side-down, or left-side-down presets. Axial mode hides the schematic head and limbs. These are orientation aids, not validated surgical exposure, whole-skeleton anatomy, collision, or patient-positioning simulations.
+Open **Patient on OT table** for a synchronized pelvis within the Z-Anatomy anatomical skeleton. Choose whole-patient, axial, or pelvis close-up views; rotate around the head-to-foot axis with the slider or choose supine, prone, right-side-down, or left-side-down presets. Axial mode hides the surrounding skeleton. These are orientation aids, not validated surgical exposure, collision, or patient-positioning simulations.
+
+## Z-Anatomy skeleton
+
+The OT-table window loads 240 bone meshes from the Z-Anatomy skeletal FBX distribution (BodyParts3D-derived). Rods and ellipsoid body substitutes have been removed. Its hips and sacrum are omitted in favour of the existing NIH fracture pelvis; alignment of these separate reference anatomies is approximate. The adapted skeleton asset remains separately licensed CC BY-SA 4.0 with original attribution in `assets/Z-ANATOMY-ATTRIBUTION.txt` and an inventory in `assets/z-anatomy-manifest.json`. NIH assets retain CC BY-NC-SA 4.0. The skeleton loads on first opening of the patient window; a retry control handles failed downloads.
