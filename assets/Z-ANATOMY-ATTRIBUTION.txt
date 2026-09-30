@@ -1,0 +1,28 @@
+Z-Anatomy skeletal context for the OT-table viewer
+
+Z-Anatomy — The libre 3D atlas of anatomy — CC BY-SA 4.0
+https://www.z-anatomy.com/
+https://github.com/LluisV/Z-Anatomy
+Source: Resources/Models/FBX/SkeletalSystem100.fbx (PC-Version branch)
+https://github.com/LluisV/Z-Anatomy/blob/PC-Version/Resources/Models/FBX/SkeletalSystem100.fbx
+Z-Anatomy Unity distribution by Lluís Vinent Juanico.
+Underlying source: BodyParts3D — The Database Center for Life Science — CC BY-SA 2.1 Japan.
+https://lifesciencedb.jp/bp3d/
+
+This adapted skeleton asset is distributed under Creative Commons
+Attribution-ShareAlike 4.0 International:
+https://creativecommons.org/licenses/by-sa/4.0/
+No endorsement by the source authors is implied.
+
+Modifications: selected anatomical bone meshes, omitted annotation and muscle
+attachment objects, cartilage and sinus cavity objects. Omitted both hip bones,
+sacrum and coccyx to avoid overlapping the separate NIH pelvis. Reoriented,
+reflected and uniformly scaled for approximate display alignment; reversed
+triangle winding. Vertex coordinates rounded to 0.001 mm. No decimation.
+Converted to gzipped indexed triangle JSON. Full inventory and transform details
+are provided in z-anatomy-manifest.json; exporter is in source/export-z-skeleton.py.
+This is not a patient-specific or validated cross-dataset anatomical registration.
+
+The Z-Anatomy skeleton is kept as a separate asset from the pre-existing NIH
+fracture pelvis. NIH pelvis assets retain their own CC BY-NC-SA 4.0 licence
+and attribution; see NIH-ATTRIBUTION.txt. This notice does not relicense them.
